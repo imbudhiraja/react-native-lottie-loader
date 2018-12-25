@@ -1,0 +1,55 @@
+{
+  "name": "react-native-lottie-loader",
+  "version": "0.0.2",
+  "description": "Useful to show lottie animation spinners in react-native mobile applications.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    ".js": [
+      "npm run lint",
+      "git add ."
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-native": "^0.57.7",
+    "lottie-react-native": "^2.5.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-imbudhiraja": "^1.0.2",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/imbudhiraja/react-native-lottie-loader.git"
+  },
+  "keywords": [
+    "loaders",
+    "animations",
+    "react-native-spinner",
+    "modals",
+    "animated",
+    "spinner",
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": "Manish Budhiraja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imbudhiraja/react-native-lottie-loader/issues"
+  },
+  "homepage": "https://github.com/imbudhiraja/react-native-lottie-loader#readme"
+}
