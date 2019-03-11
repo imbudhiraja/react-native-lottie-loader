@@ -18,16 +18,21 @@
       "git add ."
     ]
   },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-native": "^0.58.6"
+  },
   "peerDependencies": {
     "react": "^16.6.3",
-    "react-native": "^0.57.7",
+    "react-native": "^0.58.6",
     "lottie-react-native": "^2.5.10"
   },
   "devDependencies": {
-    "eslint": "^5.9.0",
+    "eslint": "^5.15.1",
     "eslint-config-imbudhiraja": "^1.0.2",
-    "husky": "^1.2.0",
-    "lint-staged": "^8.1.0"
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5"
   },
   "repository": {
     "type": "git",
@@ -44,7 +49,12 @@
     "react-component",
     "react-native",
     "ios",
-    "android"
+    "android",
+    "lottie-react-native",
+    "react-native-progress",
+    "react-native-animation-loader",
+    "react-native-animated-loader",
+    "react-native-animation-spinner"
   ],
   "author": "Manish Budhiraja",
   "license": "MIT",
