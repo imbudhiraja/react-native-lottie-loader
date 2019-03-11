@@ -3,6 +3,10 @@
 
 A React Native Loader Component which uses Airbnb's [Lottie](https://lottiefiles.com) for beautiful loader animations. This library uses [lottie-react-native](https://github.com/react-native-community/lottie-react-native) to render loader animations. Therefor this library need to be installed and linked to your project before installing this package.
 
+<img src="./samples/sample-1.gif" width="200"> &nbsp;&nbsp;
+<img src="./samples/sample-2.gif" width="200"> &nbsp;&nbsp;
+<img src="./samples/sample-3.gif" width="200">
+
 ### Installation
 ----
 ```
